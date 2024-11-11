@@ -7,3 +7,43 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* background color */
+.bg-dark{
+    background-color: rgba(17, 17, 17, 1.00);
+}
+
+/* text color */
+.text-white{
+    color: rgba(255, 255, 255, 1);
+}
+.text-light{
+    color: rgba(255, 255, 255, 1);
+}
+.brand{
+    color: rgba(230, 83, 60, 1);
+}
+/* header styles */
+
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 47px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
