@@ -9,12 +9,6 @@
   font-style: normal;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    
-}
-
 section{
     text-align: center;
 }
@@ -119,8 +113,8 @@ section{
 .section-description{
     font-size: 1rem;
     font-weight: 500;
-    max-width: 650px;
-    padding-left: 590px;
+    max-width: 640px;
+    padding-left: 500px;
 }
 
 .section-img{
@@ -302,4 +296,31 @@ table tr:nth-child(even) {
     border: none;
     margin-top: 30px;
 }
+.trainer-section{
+    background-color: rgba(34, 34, 34, 1);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.trainer-img {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  }
+  .trainer-card {
+    text-align: center;
+    background-color: #1c1c1c;
+    padding: 2px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .trainer-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    height: 280px; 
+    object-fit: cover;
+  }
+
 
